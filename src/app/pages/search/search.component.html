@@ -1,0 +1,22 @@
+<div class="pg-wrpr" appResize>
+  <div class="wrapper">
+    <div class="ads-wrpr">
+      <div class="results-line">
+        {{ total + (total === 1 ? " result" : " results") }}
+      </div>
+      @if (products && products.length > 0) {
+      <div class="bks-wrpr">
+        @for (product of products; track product.id) {
+        <app-product-card [product]="product"></app-product-card>
+        }
+      </div>
+      } @else { @if (isLoading) {<app-loading></app-loading>} @else {
+      <div class="epty">No results!</div>
+      } }
+    </div>
+
+    <div class="filter-wrapper">
+      <app-filter></app-filter>
+    </div>
+  </div>
+</div>

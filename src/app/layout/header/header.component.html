@@ -1,0 +1,33 @@
+<header class="wrapper-logged-in">
+  <div class="brand">
+    <img routerLink="/" src="images/logo.png" alt="" class="logo link" />
+    <div class="brand-name link" routerLink="/">Mini Shop</div>
+  </div>
+  <div class="search-group">
+    <input type="search" class="search-input" placeholder="Search" />
+    <div class="search-icon-wrapper link">
+      <img src="icons/search.png" alt="" class="search-icon" />
+    </div>
+  </div>
+  <div class="menu-group">
+    <p-button class="btn-srch" [text]="true" icon="pi pi-search"></p-button>
+    <div class="cart" routerLink="/cart">
+      <i
+        class="pi pi-shopping-cart"
+        [style]="{ 'font-size': '1.6em' }"
+        pBadge
+        [value]="count().toString()"
+      ></i>
+      <span class="cart-total">${{ total() | number : "1.2-2" }}</span>
+    </div>
+    <div class="lang">
+      <div (click)="onLang('en')">EN</div>
+      |
+      <div (click)="onLang('es')">ES</div>
+      |
+      <div (click)="onLang('ar')">AR</div>
+      |
+    </div>
+    <img src="images/other/menu.png" alt="" class="menu-icon link" />
+  </div>
+</header>

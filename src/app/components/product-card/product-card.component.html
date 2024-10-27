@@ -1,0 +1,14 @@
+@if (product) {
+<div class="product-card">
+  <div class="image-container" [routerLink]="['/', 'product', product.id]">
+    <img class="product-image" [alt]="product.title" [src]="product.imageUrl" />
+  </div>
+  <div class="content">
+    <div class="title">{{ product.title | truncate : 50 }}</div>
+    <div class="add-wrapper">
+      <div class="price">${{ product.price | number : "0.2-2" }}</div>
+      <p-button (onClick)="onAddToCart()" icon="pi pi-cart-plus"> </p-button>
+    </div>
+  </div>
+</div>
+}
