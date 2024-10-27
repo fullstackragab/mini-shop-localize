@@ -1,27 +1,77 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="6962699013778688473" datatype="html">
+        <source>Continue</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/btn-continue/btn-continue.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+        <target>يكمل</target>
+      </trans-unit>
+      <trans-unit id="4814285799071780083" datatype="html">
+        <source>Remove</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/cart-item-card/cart-item-card.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+        <target>يزيل</target>
+      </trans-unit>
+      <trans-unit id="4580988005648117665" datatype="html">
+        <source>Search</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/filter/filter.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+        <target>يبحث</target>
+      </trans-unit>
+      <trans-unit id="8903968955447062022" datatype="html">
+        <source>Title Includes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/filter/filter.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3579451157211326981" datatype="html">
+        <source>Description Includes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/filter/filter.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+        <target>الوصف يتضمن</target>
+      </trans-unit>
       <trans-unit id="6111535838180792685" datatype="html">
-        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>عربة التسوق <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>(<x id="INTERPOLATION" equiv-text="{{ count() + &quot; عنصر&quot; }}"/>) </source>
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Cart <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>(<x id="INTERPOLATION" equiv-text="{{ count() + &quot; item(s)&quot; }}"/>) </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/cart/cart.component.html</context>
           <context context-type="linenumber">3,5</context>
         </context-group>
+        <target><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Cart <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>(<x id="INTERPOLATION" equiv-text="{{ count() + &quot; item(s)&quot; }}"/>)
+</target>
       </trans-unit>
       <trans-unit id="2681993409629491274" datatype="html">
-        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ count() + &quot; عنصر&quot; }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ count() + &quot; item(s)&quot; }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/cart/cart.component.html</context>
           <context context-type="linenumber">9,11</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4473296297802932442" datatype="html">
-        <source>العربة فارغة</source>
+        <source>Cart is Empty!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/cart/cart.component.html</context>
           <context context-type="linenumber">52,53</context>
         </context-group>
+        <target>العربة فارغة!</target>
+      </trans-unit>
+      <trans-unit id="6891204365459628525" datatype="html">
+        <source>No results!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/search/search.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+        <target>لا توجد نتائج!</target>
       </trans-unit>
     </body>
   </file>
