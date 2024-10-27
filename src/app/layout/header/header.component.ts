@@ -31,14 +31,14 @@ export class HeaderComponent {
   onLang(lang: string) {
     switch (lang) {
       case 'es':
-        location.href = 'es/';
+        location.href = '/es';
         break;
       case 'ar':
-        location.href = 'ar/';
+        location.href = '/ar';
         break;
       case 'en':
       default:
-        location.href = 'en-US/';
+        location.href = '/en-US';
     }
   }
 }
