@@ -1,66 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+  <file datatype="plaintext" original="ng2.template" source-language="en-US" target-language="es-ES">
     <body>
       <trans-unit id="5562217874544201236" datatype="html">
         <source> Welcome to mini shop. The joy of shopping. All products available with discounts. Buy now!
 </source>
+        <target>Bienvenido a Mini Shop. La alegría de comprar. Todos los productos disponibles con descuentos. ¡Compra ahora!
+</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">3,5</context>
         </context-group>
-        <target>Bienvenido a Mini Shop. La alegría de comprar. Todos los productos disponibles con descuentos. ¡Compre ahora!</target>
       </trans-unit>
       <trans-unit id="6962699013778688473" datatype="html">
         <source>Continue</source>
+        <target>Continuar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/btn-continue/btn-continue.component.html</context>
           <context context-type="linenumber">5,6</context>
         </context-group>
-        <target>Continúe en</target>
       </trans-unit>
       <trans-unit id="4814285799071780083" datatype="html">
         <source>Remove</source>
+        <target>Eliminar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/cart-item-card/cart-item-card.component.html</context>
           <context context-type="linenumber">13,14</context>
         </context-group>
-        <target>Eliminar</target>
       </trans-unit>
       <trans-unit id="4580988005648117665" datatype="html">
         <source>Search</source>
+        <target>Buscar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/filter/filter.component.html</context>
           <context context-type="linenumber">2,4</context>
         </context-group>
-        <target>Buscar en</target>
       </trans-unit>
       <trans-unit id="8903968955447062022" datatype="html">
         <source>Title Includes</source>
+        <target>El título incluye</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/filter/filter.component.html</context>
           <context context-type="linenumber">12,13</context>
         </context-group>
-        <target>Título Incluye</target>
       </trans-unit>
       <trans-unit id="3579451157211326981" datatype="html">
         <source>Description Includes</source>
+        <target>Descripción Incluye</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/filter/filter.component.html</context>
           <context context-type="linenumber">28,29</context>
         </context-group>
-        <target>Descripción Incluye</target>
       </trans-unit>
       <trans-unit id="6111535838180792685" datatype="html">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Cart <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>(<x id="INTERPOLATION" equiv-text="{{ count() + &quot; item(s)&quot; }}"/>) </source>
+        <target><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Carrito <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>(<x id="INTERPOLATION" equiv-text="{{ count() + &quot; item(s)&quot; }}"/>)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/cart/cart.component.html</context>
           <context context-type="linenumber">3,5</context>
         </context-group>
-        <target><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Cesta <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>(<x id="INTERPOLATION" equiv-text="{{ count() + &quot; item(s)&quot; }}"/>)</target>
       </trans-unit>
       <trans-unit id="2681993409629491274" datatype="html">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ count() + &quot; item(s)&quot; }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <target><x id="ETIQUETA DE INICIO_FUERTE" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ count() + &quot; item(s)&quot; }}"/><x id="ETIQUETA DE CERRAR_FUERTE" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/cart/cart.component.html</context>
           <context context-type="linenumber">9,11</context>
@@ -68,19 +70,19 @@
       </trans-unit>
       <trans-unit id="4473296297802932442" datatype="html">
         <source>Cart is Empty!</source>
+        <target>¡El carrito está vacío!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/cart/cart.component.html</context>
           <context context-type="linenumber">52,53</context>
         </context-group>
-        <target>La cesta está vacía</target>
       </trans-unit>
       <trans-unit id="6891204365459628525" datatype="html">
         <source>No results!</source>
+        <target>¡No hay resultados!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/search/search.component.html</context>
           <context context-type="linenumber">14,15</context>
         </context-group>
-        <target>¡No hay resultados!</target>
       </trans-unit>
     </body>
   </file>

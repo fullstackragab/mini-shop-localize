@@ -7,11 +7,11 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "es": {
-            "translation": "src/locale/messages.es.xlf"
+          "es-ES": {
+            "translation": "src/locale/messages.es-ES.xlf"
           },
-          "ar": {
-            "translation": "src/locale/messages.ar.xlf"
+          "ar-EG": {
+            "translation": "src/locale/messages.ar-EG.xlf"
           }
         }
       },
@@ -60,11 +60,11 @@
               "extractLicenses": false,
               "sourceMap": true
             },
-            "es": {
-              "localize": ["es"]
+            "es-ES": {
+              "localize": ["es-Es"]
             },
-            "ar": {
-              "localize": ["ar"]
+            "ar-EG": {
+              "localize": ["ar-EG"]
             }
           },
           "defaultConfiguration": "production"
@@ -78,11 +78,11 @@
             "development": {
               "buildTarget": "mini-shop-fe:build:development"
             },
-            "es": {
-              "buildTarget": "mini-shop-fe:build:development,es"
+            "es-ES": {
+              "buildTarget": "mini-shop-fe:build:development,es-ES"
             },
-            "ar": {
-              "buildTarget": "mini-shop-fe:build:development,ar"
+            "ar-EG": {
+              "buildTarget": "mini-shop-fe:build:development,ar-EG"
             }
           },
           "defaultConfiguration": "development"
