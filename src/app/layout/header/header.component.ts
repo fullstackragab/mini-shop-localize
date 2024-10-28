@@ -29,6 +29,7 @@ export class HeaderComponent {
   constructor(private cartService: CartService) {}
 
   onLang(lang: string) {
+    console.log('location: ', location);
     switch (lang) {
       case 'es':
         location.href = '/es-ES';
