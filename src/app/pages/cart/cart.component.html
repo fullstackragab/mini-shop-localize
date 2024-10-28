@@ -1,12 +1,12 @@
 <div class="wrapper">
   <header class="header" i18n>
-    <strong>Cart </strong>({{ count() + " item(s)" }})
+    <strong>Cart </strong>({{ count() }} item(s))
   </header>
   @if (count()) {
   <main class="main">
     <div class="items shadow">
       <div class="title" i18n>
-        <strong>{{ count() + " item(s)" }}</strong>
+        <strong>{{ count() }}</strong> item(s)
       </div>
       <!-- <div class="arrival">
         <strong>Arrives by Wed, Jan 24</strong>
@@ -37,11 +37,11 @@
         <div>${{ total().toFixed(2) }}</div>
       </div>
       <div class="taxes value-pair">
-        <div><strong>Taxes</strong></div>
-        <div>Calculated at checkout</div>
+        <div><strong i18n>Taxes</strong></div>
+        <div i18n>Calculated at checkout</div>
       </div>
       <div class="estimated-total value-pair">
-        <div><strong>Estimated Total</strong></div>
+        <div><strong i18n>Estimated Total</strong></div>
         <div class="estimated-total-value">
           <strong>${{ total().toFixed(2) }}</strong>
         </div>

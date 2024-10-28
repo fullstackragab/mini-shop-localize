@@ -52,18 +52,39 @@
           <context context-type="linenumber">28,29</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6111535838180792685" datatype="html">
-        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Cart <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>(<x id="INTERPOLATION" equiv-text="{{ count() + &quot; item(s)&quot; }}"/>) </source>
+      <trans-unit id="932337385474043672" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Cart <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>(<x id="INTERPOLATION" equiv-text="{{ count() }}"/> item(s)) </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/cart/cart.component.html</context>
           <context context-type="linenumber">3,5</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2681993409629491274" datatype="html">
-        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ count() + &quot; item(s)&quot; }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+      <trans-unit id="8260796042076382027" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{ count() }}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> item(s) </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/cart/cart.component.html</context>
           <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8668365943824428982" datatype="html">
+        <source>Taxes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cart/cart.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3777068406670728525" datatype="html">
+        <source>Calculated at checkout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cart/cart.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5001532695164712567" datatype="html">
+        <source>Estimated Total</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/cart/cart.component.html</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4473296297802932442" datatype="html">
